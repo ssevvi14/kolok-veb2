@@ -1,0 +1,163 @@
+ @import url('https://googleapis.com');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero{
+    background-color: #ffffff;
+    min-height: 880px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.hero-inner{
+    display: flex;
+    align-items: center;
+    min-height: 880px;
+    position: relative;
+    
+}
+
+.hero-content{
+    width: 48%;
+    position: relative;
+    z-index: 3;
+    background-color: #F2F2F2;
+    padding: 30px;
+    border-bottom-right-radius: 100px; 
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #333333;
+    margin-bottom: 36px;
+}
+
+.hero-description{
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    max-width: 570px;
+    margin-bottom: 34px;
+}
+
+.stats {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.stat-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 5px;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.stat-item p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.hero-button{
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #437223;
+    padding: 24px 45px;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.hero-visual{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    width: 55%;
+    height: 750px;
+}
+
+.hero-plants{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    max-height: 700px;
+    object-fit: contain;
+    z-index: 4;
+}
+
+
+.hero-circle span{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+
+.services{
+    position: relative;
+    z-index: 3;
+    margin-top: -80px;
+    padding-bottom: 60px;
+}
+
+.services-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-width: 0;
+    border:  1px solid #333333;
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 20px;
+    height: 112px;
+    width: 421px;
+}
+
+.service img{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
